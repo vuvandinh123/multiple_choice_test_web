@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Anek Malayalam", sans-serif;
+  background-color: rgb(229 231 235);
+}
+.scro::-webkit-scrollbar {
+  width: 0px;
+  background-color: #F5F5F5;
+} 
+.scro::-webkit-scrollbar-thumb {
+  background-color: #ff00b7;
+}
